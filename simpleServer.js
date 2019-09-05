@@ -1,8 +1,8 @@
-var http = require('http');
+ var http = require('http');
 var port = 8080; 
 
 var requestHandler = function(request, response) {
-  response.end('Request received!');
+  response.end('Request received! I am the coolest.');
 };
 
 // a server is created, but not started
